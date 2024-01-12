@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MapScreen from './Map';
 import LocationScreen from './Location';
+import ImagePickerScreen from './ImagePicker';
 
 const Tab = Platform.OS === 'android' 
   ? createMaterialBottomTabNavigator() 
@@ -21,7 +22,6 @@ const SettingsScreen = () => {
   </View>;
 }
 
-
 export default function App() {
   return (
     <NavigationContainer>
@@ -30,6 +30,9 @@ export default function App() {
           <Tab.Screen name="Settings" component={SettingsScreen} />
           <Tab.Screen name ="Map" component={MapScreen} />
           <Tab.Screen name ="Location" component={LocationScreen} />
+          {/* <Tab.Screen name ="WindowQuery" component={WindowQueryScreen} /> */}
+          <Tab.Screen name ="Image" component={ImagePickerScreen} />
+
         </Tab.Navigator>
     </NavigationContainer>
   );
