@@ -1,5 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { Platform, StyleSheet, SafeAreaView, View, Text } from 'react-native';
+import { Platform, StyleSheet, View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
