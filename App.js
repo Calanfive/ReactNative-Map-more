@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MapScreen from './Map';
+import LocationScreen from './Location';
 
 const Tab = Platform.OS === 'android' 
   ? createMaterialBottomTabNavigator() 
