@@ -50,6 +50,8 @@ const styles = StyleSheet.create({
 });
 
 # Affichage Map Google
+https://github.com/react-native-maps/react-native-maps
+
 npx expo install react-native-maps
 
 import React from 'react';
